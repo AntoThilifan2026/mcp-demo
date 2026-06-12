@@ -1,3 +1,4 @@
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -5,26 +6,33 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.5.15-SNAPSHOT</version>
+		<version>3.2.5</version> <!-- Use a stable, released version -->
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>server2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
-	<description/>
-	<url/>
+	<name>server2</name> <!-- Provide a descriptive name -->
+	<description>A Spring Boot server application</description> <!-- Provide a descriptive description -->
+	<url>http://www.example.com/server2</url> <!-- Provide a relevant URL -->
 	<licenses>
-		<license/>
+		<license>
+			<name>Apache License, Version 2.0</name> <!-- Specify a standard license -->
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
 	</licenses>
 	<developers>
-		<developer/>
+		<developer>
+			<id>your_developer_id</id> <!-- Replace with your actual ID -->
+			<name>Your Name</name> <!-- Replace with your name -->
+			<email>your.email@example.com</email> <!-- Replace with your email -->
+		</developer>
 	</developers>
 	<scm>
-		<connection/>
-		<developerConnection/>
-		<tag/>
-		<url/>
+		<connection>scm:git:git@github.com:yourusername/server2.git</connection> <!-- Update with your SCM details -->
+		<developerConnection>scm:git:git@github.com:yourusername/server2.git</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/yourusername/server2</url>
 	</scm>
 	<properties>
 		<java.version>17</java.version>
@@ -51,24 +59,11 @@
 		</plugins>
 	</build>
 	<repositories>
-		<repository>
-			<id>spring-snapshots</id>
-			<name>Spring Snapshots</name>
-			<url>https://repo.spring.io/snapshot</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-		</repository>
+		<!-- Removed snapshot repositories to encourage using stable releases -->
 	</repositories>
 	<pluginRepositories>
-		<pluginRepository>
-			<id>spring-snapshots</id>
-			<name>Spring Snapshots</name>
-			<url>https://repo.spring.io/snapshot</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-		</pluginRepository>
+		<!-- Removed snapshot repositories to encourage using stable releases -->
 	</pluginRepositories>
 
 </project>
+```
